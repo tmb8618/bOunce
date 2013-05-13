@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="game_v0._1.button" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAgAAAAAAAAAIAAAACAAFAAA=</HashCode>
+      <FileName>button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.simpleQueue" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAgAAAAAAAAAAAAIAAAAAAAAAAAAAIBAAAAAA=</HashCode>
+      <FileName>custom data structs\simpleQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.floatRectangle" Collapsed="true">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAQQAAAEAAAAAAAAAAAABgAAAAYAA=</HashCode>
+      <FileName>floatRectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.game" Collapsed="true">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYgWEAAAEAAAwkAAAAAAIAAAAAAAAgAAAAAAAAAAAQ=</HashCode>
+      <FileName>game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.Program" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>just don't look\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.scene" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAIAAAMAAAACEAAICAAAAAAKACYABIIAAIAAEAAA=</HashCode>
+      <FileName>scene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.bullet" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAgAAAAAAAAAAAAIAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>thingys\bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.enemy" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABACYAAAEAAAABAIAAIACAQCAABEAAAAQEAAAAAAAg=</HashCode>
+      <FileName>thingys\enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.mirror" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAACAAAAAAAAAAAAAAAAAAAAAgAgAAAAAABAAAAA=</HashCode>
+      <FileName>thingys\mirror.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.player" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAoAAAAAAAAAQIAAIgAAQAAAEAAgAASCBiAAAAEg=</HashCode>
+      <FileName>thingys\player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.powerUp" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>thingys\powerUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.thingy" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABhMAAKAAAECEKCAAAKAAAIBEEgIAQHkDACClicGlAI=</HashCode>
+      <FileName>thingys\thingy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_v0._1.wall" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>thingys\wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

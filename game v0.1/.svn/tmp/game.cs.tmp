@@ -1,0 +1,243 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+using Microsoft.Xna.Framework.Net;
+using Microsoft.Xna.Framework.Storage;
+
+namespace game_v0._1
+{
+    /// <summary>
+    /// This is the main type for your game
+    /// </summary>
+    public class game : Microsoft.Xna.Framework.Game
+    {
+
+        #region just don't look
+        GraphicsDeviceManager graphics;
+        SpriteBatch spriteBatch;
+        protected override void Initialize() { base.Initialize(); }
+        protected override void UnloadContent() { }
+        public game()
+        {
+            graphics = new GraphicsDeviceManager(this);
+            Content.RootDirectory = "Content";
+            Window.AllowUserResizing = true;
+            IsMouseVisible = true;
+        }
+        #endregion
+
+        Texture2D pixel;
+        SpriteFont font;
+        scene currentScene;
+        bool updatePlz;
+
+        #region test
+        scene scene1;
+        #endregion
+
+        protected override void LoadContent()
+        {
+            spriteBatch = new SpriteBatch(GraphicsDevice);
+            pixel = Content.Load<Texture2D>("pixel");
+            font = Content.Load<SpriteFont>("font");
+
+
+            #region test
+
+            player player = new player(Content.Load<Texture2D>("player"), new Rectangle(50, 50, 30, 30), 0f, 5, 1);
+            player.Color = Color.Blue;
+<<<<<<< .mine
+            player.health = 300;
+            player.moveWithGamePad = true;
+            //player.moveWithKeys = true;
+            //player.orientOnMouse = true;
+=======
+            player.health = 500;
+            player.moveWithGamePad = true;
+            //player.moveWithKeys = true;
+            //player.orientOnMouse = true;
+>>>>>>> .r104
+            scene1 = new scene(player);
+
+            player player2 = new player(Content.Load<Texture2D>("player"), new Rectangle(50, 500, 30, 30), 0f, 5, 2);
+            player2.Color = Color.Red;
+            player2.health = 300;
+<<<<<<< .mine
+            player2.moveWithGamePad = true;
+            scene1.players.Add(player2);
+=======
+            //player2.moveWithGamePad = true;
+            player2.moveWithKeys = true;
+            player2.orientOnMouse = true;
+            scene1.players.Add(player2);
+>>>>>>> .r104
+
+            player player3 = new player(Content.Load<Texture2D>("player"), new Rectangle(670, 500, 30, 30), 0f, 5, 3);
+            player3.Color = Color.Green;
+            player3.health = 300;
+            player3.moveWithGamePad = true;
+            //scene1.players.Add(player3);
+
+            player player4 = new player(Content.Load<Texture2D>("player"), new Rectangle(670, 50, 30, 30), 0f, 5, 4);
+            player4.Color = Color.Yellow;
+            player4.health = 300;
+            player4.moveWithKeys = true;
+            player4.orientOnMouse = true;
+            //scene1.players.Add(player4);
+
+            scene1.enemyTextures.Add(Content.Load<Texture2D>("enemy2"));
+            scene1.enemyTextures.Add(Content.Load<Texture2D>("enemy3"));
+            scene1.enemyTextures.Add(Content.Load<Texture2D>("enemy4"));
+            scene1.bulletTexture = pixel;
+            scene1.powerupTexture = pixel;
+
+            mirror mirror1 = new mirror(pixel, new Rectangle(200, 100, 10, 200), 0f, 0);
+            mirror1.Color = new Color(255, 255, 255, 180);
+            scene1.mirrors.Add(mirror1);
+
+            mirror mirror3 = new mirror(pixel, new Rectangle(GraphicsDevice.Viewport.Width - 200, 100, 10, 200), 0f, 0);
+            mirror3.Color = new Color(255, 255, 255, 180);
+            scene1.mirrors.Add(mirror3);
+
+
+            //wall wall1 = new wall(pixel, new Rectangle(300, 200, 200, 40), 0f, 0);
+            //wall1.Color = Color.Firebrick;
+            //scene1.walls.Add(wall1);
+
+            enemy enemy1 = new enemy(pixel, new Rectangle(400, 400, 60, 60), 0.5f, 0, pixel, new Rectangle(0, 0, 3, 12), 2f, 5);
+            enemy1.Health = 200;
+            enemy1.Target = 1;
+            scene1.enemies.Add(enemy1);
+
+            scene1.backGround = Content.Load<Texture2D>("stars1");
+            scene1.defaultTexture = pixel;
+
+            currentScene = scene1;
+
+            #endregion
+
+        }
+
+        protected override void Update(GameTime gameTime)
+        {
+            base.Update(gameTime);
+
+            
+            updatePlz = false;
+            foreach (player player in currentScene.players)
+            {
+                if (player.health > 0)
+                {
+                    updatePlz = true;
+                }
+            }
+
+
+            if( updatePlz)
+            {
+                currentScene.update();
+
+                #region test
+                foreach (enemy enemy in currentScene.enemies)
+                {
+                    foreach (player player in currentScene.players)
+                    {
+                        if (player.PlayerNum == enemy.Target)
+                        {
+                            enemy.Destination = player.center;
+                        }
+                    }
+                }
+                #endregion
+                
+                currentScene.viewPortBounds = new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
+            }
+        }
+
+
+        protected override void Draw(GameTime gameTime)
+        {
+            spriteBatch.Begin();
+
+            GraphicsDevice.Clear(Color.Black);    
+            
+            
+            if (updatePlz)
+            {
+                currentScene.draw(spriteBatch);
+            }
+            else
+            {
+                #region test game over code
+                int highScore = 0;
+                int playerNum = -1;
+                foreach (player player in scene1.players)
+                {
+                    if (player.score > highScore)
+                    {
+                        highScore = player.score;
+                        playerNum = player.PlayerNum;
+                    }
+                }
+
+                spriteBatch.DrawString(font, "Player " + playerNum + " won with a score of " + highScore, new Vector2(GraphicsDevice.Viewport.Width / 2 - 125, 400), Color.White);
+                spriteBatch.DrawString(font, "Press \"R\" or \"BACK\" to reset", new Vector2(GraphicsDevice.Viewport.Width / 2 - 100, 415), Color.White);
+
+
+                if (Keyboard.GetState().IsKeyDown(Keys.R) 
+                    || GamePad.GetState(PlayerIndex.One).IsButtonDown(Buttons.Back)
+                     || GamePad.GetState(PlayerIndex.Two).IsButtonDown(Buttons.Back)
+                     || GamePad.GetState(PlayerIndex.Three).IsButtonDown(Buttons.Back)
+                     || GamePad.GetState(PlayerIndex.Four).IsButtonDown(Buttons.Back))
+                {
+                    foreach (player player in scene1.players)
+                    {
+                        player.health = 200;
+                        player.score = 0;
+                        player.isCollidable = true;
+                    }
+                    
+                    scene1.enemies = new List<enemy>();
+                    scene1.bullets = new List<bullet>();
+                }
+                #endregion
+
+            }
+            
+
+            //displayes the score
+            int lineNum = 0;
+            foreach (player player in currentScene.players)
+            {
+                spriteBatch.DrawString(font, "Player " + player.PlayerNum + " score: " + player.score, new Vector2(GraphicsDevice.Viewport.Width/2 - 75, lineNum), Color.White);
+                lineNum += 15;
+            }
+
+            foreach (bullet bullet in currentScene.bullets)
+            {
+                spriteBatch.DrawString(font, "angle: " + bullet.Rotation/Math.PI + "/PI", new Vector2(bullet.Shape.X, bullet.Shape.Y), Color.White);
+                
+            }
+
+
+
+            //for testing only. Tells me how many enemies are on screen, etc
+            Window.Title = "eneimies: " + scene1.enemies.Count + "|||| bullets: " + scene1.bullets.Count;
+
+
+            
+
+
+            spriteBatch.End();
+            base.Draw(gameTime);
+        }
+    }
+}
+

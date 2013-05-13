@@ -1,0 +1,3 @@
+C:\Users\IGMAdmin\Desktop\223q102g6\v0.1\game v0.1\game v0.1\Content\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\Content\obj\x86\Release\ResolveAssemblyReference.cache
+D:\game v0.1\game v0.1\Content\obj\x86\Release\ResolveAssemblyReference.cache

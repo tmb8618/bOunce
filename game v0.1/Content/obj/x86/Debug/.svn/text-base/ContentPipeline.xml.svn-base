@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>pixel.bmp</Source>
+      <Name>pixel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\pixel.xnb</Output>
+      <Time>2011-02-04T12:50:11.4062-05:00</Time>
+    </Item>
+    <Item>
+      <Source>player.png</Source>
+      <Name>player</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\player.xnb</Output>
+      <Time>2011-02-15T21:02:53.805-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy4.png</Source>
+      <Name>Enemy4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Enemy4.xnb</Output>
+      <Time>2011-02-15T21:35:37.7228-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy2.png</Source>
+      <Name>Enemy2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Enemy2.xnb</Output>
+      <Time>2011-02-15T21:41:54.1918-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy3.png</Source>
+      <Name>Enemy3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Enemy3.xnb</Output>
+      <Time>2011-02-15T21:46:49.508-05:00</Time>
+    </Item>
+    <Item>
+      <Source>powerUp.png</Source>
+      <Name>powerUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\powerUp.xnb</Output>
+      <Time>2011-02-15T22:27:04.6096-05:00</Time>
+    </Item>
+    <Item>
+      <Source>backgrounds\b1.jpg</Source>
+      <Name>backgrounds\b1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\backgrounds\b1.xnb</Output>
+      <Time>2011-02-18T01:14:52.3616-05:00</Time>
+    </Item>
+    <Item>
+      <Source>backgrounds\b2.jpg</Source>
+      <Name>backgrounds\b2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\backgrounds\b2.xnb</Output>
+      <Time>2011-02-18T01:14:52.4552-05:00</Time>
+    </Item>
+    <Item>
+      <Source>backgrounds\b3.jpg</Source>
+      <Name>backgrounds\b3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\backgrounds\b3.xnb</Output>
+      <Time>2011-02-18T01:14:52.4552-05:00</Time>
+    </Item>
+    <Item>
+      <Source>backgrounds\b4.jpg</Source>
+      <Name>backgrounds\b4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\backgrounds\b4.xnb</Output>
+      <Time>2011-02-18T01:14:52.6736-05:00</Time>
+    </Item>
+    <Item>
+      <Source>backgrounds\b5.jpg</Source>
+      <Name>backgrounds\b5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\backgrounds\b5.xnb</Output>
+      <Time>2011-02-18T01:14:52.7828-05:00</Time>
+    </Item>
+    <Item>
+      <Source>backgrounds\b6.jpg</Source>
+      <Name>backgrounds\b6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\backgrounds\b6.xnb</Output>
+      <Time>2011-02-18T01:14:52.9076-05:00</Time>
+    </Item>
+    <Item>
+      <Source>backgrounds\b7.jpg</Source>
+      <Name>backgrounds\b7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\backgrounds\b7.xnb</Output>
+      <Time>2011-02-18T01:14:52.9232-05:00</Time>
+    </Item>
+    <Item>
+      <Source>backgrounds\b8.jpg</Source>
+      <Name>backgrounds\b8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\backgrounds\b8.xnb</Output>
+      <Time>2011-02-18T01:14:53.0012-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Credits.png</Source>
+      <Name>Credits</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Credits.xnb</Output>
+      <Time>2011-02-18T01:14:53.8748-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Title.png</Source>
+      <Name>Title</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Title.xnb</Output>
+      <Time>2011-02-18T01:14:53.8904-05:00</Time>
+    </Item>
+    <Item>
+      <Source>font.spritefont</Source>
+      <Name>font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\font.xnb</Output>
+      <Time>2011-02-04T12:50:11.2382-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\bomb-02.wav</Source>
+      <Name>Sound\bomb-02</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Sound\bomb-02.xnb</Output>
+      <Time>2011-02-18T02:38:28.864-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Health.wav</Source>
+      <Name>Sound\Health</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Sound\Health.xnb</Output>
+      <Time>2011-02-18T01:14:34.8116-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Points.wav</Source>
+      <Name>Sound\Points</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Sound\Points.xnb</Output>
+      <Time>2011-02-18T01:14:35.7944-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\scifi034.wav</Source>
+      <Name>Sound\scifi034</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Sound\scifi034.xnb</Output>
+      <Time>2011-02-18T01:14:34.7336-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\Slayer.wav</Source>
+      <Name>Sound\Slayer</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Sound\Slayer.xnb</Output>
+      <Time>2011-02-18T01:14:36.1376-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\deathTheme.wav</Source>
+      <Name>Sound\deathTheme</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Sound\deathTheme.xnb</Output>
+      <Time>2011-02-18T01:14:35.5448-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\gameTheme.wav</Source>
+      <Name>Sound\gameTheme</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Sound\gameTheme.xnb</Output>
+      <Time>2011-02-18T01:14:36.122-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\mainTheme.wav</Source>
+      <Name>Sound\mainTheme</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\Sound\mainTheme.xnb</Output>
+      <Time>2011-02-18T01:14:35.0144-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\ajl\Desktop\223q102g6\v0.1\game v0.1\game v0.1\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T01:16:14-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T01:16:06-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T01:16:16-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T01:16:26-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T01:16:12-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T01:16:06-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-12-27T12:47:08.7142-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
